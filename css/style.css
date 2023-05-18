@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    position: relative;
+}
+
+.mountans {
+    top: 10%;
+    background: #40c463;
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    padding: auto;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.climber {
+    margin-left: 10px;
+    width: 15px;
+    height: 20px;
+    z-index: 1;
+    position: absolute;
+    left: -190%;
+    bottom: -9%;
+
+}
+.flag {
+    width: 25px;
+    height: 30px;
+    z-index: 1;
+    position: absolute;
+    bottom: 81%;
+    right: 120%;
+}
+.line1{
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    position: absolute;
+    bottom: -4%;
+    right: 480%;
+}
+#two{
+    
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    bottom: 10%;
+    right: 440%;
+    position: absolute;
+
+}
+#three {
+
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    bottom: 33%;
+    right: 380%;
+    position: absolute;
+
+}
+#four {
+    
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    bottom: 50%;
+    right: 330%;
+    position: absolute;
+
+}
+#five {
+
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    bottom: 60%;
+    right: 190%;
+    position: absolute;
+
+}
+#six{
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 15px;
+    bottom: 84%;
+    right: 100%;
+    position: absolute;
+
+}
+
+
